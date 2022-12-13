@@ -1,0 +1,512 @@
+<html>
+<head>
+	<title>Practice</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<script>
+	/*
+		var a=10
+		var b=20
+		if(b>a){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}
+		if(b<a){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}		
+		if(b>=a){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}
+		if(b<=a){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}
+		if(b==a){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}
+		if(b!=a){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}
+		if(b>a&&a>b){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}
+		if(b>a||a>b){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}
+		if(!(b>a&&a>b)){
+			console.log("true")
+		}
+		else{
+			console.log("false")
+		}
+		if(a>b){
+			console.log("true")
+		}
+		else if(a<b){
+			console.log("elseif")
+		}
+		else{
+			console.log("false")
+		}
+		var x=parseInt(prompt("enter your day"))
+		
+		switch(x){
+			case 1:
+			console.log("monday")
+			break;
+			case 2:
+			console.log("tuesday")
+			break;
+			case 3:
+			console.log("wednesday")
+			break;
+			case 4:
+			console.log("thursday")
+			break;
+			case 5:
+			console.log("friday")
+			break;
+			case 6:
+			console.log("saturday")
+			break;
+			case 7:
+			console.log("sunday")
+			break;
+			default:
+			console.log("not valid day")
+		}
+		
+		
+		var y=prompt("enter your fav fruit")
+		
+		switch(y){
+			case "apple":
+			console.log("apple")
+			break;
+			case "orange":
+			console.log("orange")
+			break;
+			case "mango":
+			console.log("mango")
+			break;
+			case "pineapple":
+			console.log("pineapple")
+			break;
+			case "grape":
+			console.log("grape")
+			break;
+			case "banana":
+			console.log("banana")
+			break;
+			default:
+			console.log("not valid fruit")
+		}
+		var z=parseInt(prompt("enter week"))
+		
+		switch(z){
+			case 1:
+			case 2:
+			case 3:
+			case 4:
+			case 5:
+			case 6:
+			case 7:
+			console.log("First week")
+			break;
+			case 8:
+			case 9:
+			case 10:
+			case 11:
+			case 12:
+			case 13:
+			case 14:
+			console.log("Second Week")
+			break;
+			case 15:
+			case 16:
+			case 17:
+			case 18:
+			case 19:
+			case 20:
+			case 21:
+			console.log("third week")
+			break;
+			default:
+			console.log("not valid week")
+		}
+		 
+		var a=parseInt(prompt("Enter A Value"));
+		var b=parseInt(prompt("Enter B Value"));
+		var c=parseInt(prompt("Enter C Value"));
+		
+		if(a>b){
+			if(a>c){
+				console.log("A is big");
+			}
+			else{
+				console.log("C is big");
+			}
+		}
+		else if(c>b){
+			console.log("C is big");
+		}
+		else{
+			console.log("B is big")
+		}
+		
+		var a=parseInt(prompt("Enter A Value"));
+		var b=parseInt(prompt("Enter B Value"));
+		var c=parseInt(prompt("Enter C Value"));
+		var d=parseInt(prompt("Enter D Value"));
+		
+		if(a>b){
+			if(a>c){
+				if(a>d){
+					console.log("A is big");
+				}
+				else{
+					console.log("D is big");
+				}
+			}
+			else if(c>d){
+				console.log("C is big");
+			}
+			else{
+				console.log("D is big");
+			}
+		}
+		else{
+			if(b>c){
+				if(b>d){
+					console.log("B is big");
+				}
+				else{
+					console.log("D is big");
+				}
+			}
+			else if(c>d){
+				console.log("C is big")
+			}
+			else{
+				console.log("D is big");
+			}
+		}
+		
+		var m=prompt("gender");
+		if("male"==m){
+			var age=parseInt(prompt("Enter Your Age"));
+			if(21<=age){
+				console.log("Your Are Eligibility")
+			}
+			else{
+				console.log("You Are Not Eligible");
+			}
+		}
+		else if("female"==m){
+			var age=parseInt(prompt("Enter Your Age"));
+			if(18<=age){
+				console.log("Your Are Eligibility")
+			}
+			else{
+				console.log("You Are Not Eligible");
+			}
+		}
+		var vote=parseInt(prompt("Enter Your Age"));
+		if(18<=vote){
+			console.log("Eligible For Vote");
+		}
+		else{
+			console.log("Not Eligible For Vote");
+		}
+		
+		var a=parseInt(prompt("enter The number"));
+		var b=1;
+		if(b<=a){
+			console.log(b);
+			b++
+		}
+		if(b<=a){
+			console.log(b);
+			b++
+		}
+		if(b<=a){
+			console.log(b);
+			b++
+		}
+		if(b<=a){
+			console.log(b);
+			b++
+		}
+		if(b<=a){
+			console.log(b);
+			b++
+		}
+		if(b<=a){
+			console.log(b);
+			b++
+		}
+		
+		var a=parseInt(prompt("Enter The Value"));
+		
+		for(i=1;i<=10;i++)
+		{
+			
+			let z=i*a;
+			console.log(z);
+		}
+		
+		var f=parseInt(prompt("Enter The Value"));
+		var z=1;
+		for(i=1;i<=f;i++)
+		{
+			
+			var z=i*z;
+			
+		}
+		console.log(z);
+		
+		var f=parseInt(prompt("Enter The Value"));
+		var z=f;
+		for(i=f-1;i>=1;i--)
+		{
+			
+			 z=i*z;
+			
+		}
+		console.log(z);
+		
+		var f=parseInt(prompt("Enter The Value"));
+		var z=f;
+		for(i=1;i<f;i++)
+		{
+			
+			z=i*z;
+			
+		}
+		console.log(z);
+		
+		var a=prompt("enter the reverse value");
+		var c=0
+		for(i=0;a!=0;i++){
+			var b=a%10;
+			a=(a-b)/10;
+			c=(c*10)+b;
+		}
+		console.log(c)
+		
+		var a=parseInt(prompt("enter The number"));
+		var c=0;
+		for(i=1;i<=10;i++)
+		{
+			c=c+a;
+			console.log(c);
+		}
+		
+		var a=parseInt(prompt("enter the number"));
+		var b=parseInt(prompt("enter the number"));
+		var c=0;
+		for(i=1;i<=b;i++){
+			 c=c+a;	
+		}
+		console.log(c);
+		
+		var a=parseInt(prompt("enter the number"));
+		var b=parseInt(prompt("enter the number"));
+		for(i=0;a>=b;i++){
+			a=a-b;	
+		}
+		console.log("remainder",a);
+		console.log("quotient",i);
+		
+		var a=parseInt(prompt("enter the distance"));
+		var b=parseInt(prompt("enter the time"));
+		a/=1000;
+		b/=60;
+		var s=a/b;
+		console.log(s);
+		
+		
+		var a=parseInt(prompt("enter the speed"));
+		var b=parseInt(prompt("enter the time"));
+		var d=a*b;
+		console.log("distance",d);
+		var t=parseInt(prompt("enter the time"));
+		var s=d/t;
+		console.log("speed",s);
+		
+		
+		var b=parseInt(prompt("enter the instead speed"));
+		var a=parseInt(prompt("enter the speed"));
+		var d=parseInt(prompt("enter the distance"));
+		
+		var s=b-a;
+		var t=d/s;
+		
+		var z=a*t;
+		console.log(z);
+		
+		var a=parseInt(prompt("enter the excluding stoppages"));
+		var b=parseInt(prompt("enter the including stoppages"));
+		var d=a-b;
+		var t=d/a;
+		var m=t*60;
+		console.log("stopping time" + " " + (m) + "min");
+		
+		
+		var a=[1,2,3,4,5]
+		console.log(a)
+		console.log(a[0])
+		console.log(a[1])
+		console.log(a[2])
+		console.log(a[3])
+		console.log(a[4])
+		
+		var a=[]
+		 a[0]=prompt("enter the value");
+		 a[1]=prompt("enter the value");
+		 a[2]=prompt("enter the value");
+		 a[3]=prompt("enter the value");
+		 a[4]=[1,2,3,4]
+		 
+		console.log(a[4][2]);
+		
+		var a=parseInt(prompt("enter the length"));
+		var b=[]
+		for(i=0;i<a;i++){
+			b[i]=parseInt(prompt("enter array value"));			
+		}
+		console.log(b);
+		
+		var a=parseInt(prompt("enter the length"));
+		var b=[]
+		var d=[]
+		for(i=0;i<a;i++){
+			b[i]=parseInt(prompt("enter array value"));			
+		}
+		var c=parseInt(prompt("enter the length"));
+		 b[i]=d;
+		for(i=0;i<c;i++){
+			d[i]=parseInt(prompt("enter array value"));			
+		}
+		console.log(b);
+		
+		var mainlength=parseInt(prompt("enter the main length"));
+		var main=[];
+		var sub;
+		for(i=0;i<mainlength;i++){
+			sub=[];
+			var sublength=parseInt(prompt("enter the sub length"));
+			for(j=0;j<sublength;j++){
+				sub[j]=parseInt(prompt("enter the value"));
+			}
+			main[i]=sub;	
+		}
+		console.log(main);
+		
+		var mainlength=parseInt(prompt("enter the main length"));
+		var main=[];
+		var sub;
+		for(i=0;i<mainlength;i++){
+			sub=[];
+			var sublength=parseInt(prompt("enter the sub length"));
+			if(sublength>0){
+				for(j=0;j<sublength;j++){
+					sub[j]=parseInt(prompt("enter the value"));
+				}
+				main[i]=sub;
+			}
+			else{
+				main[i]=parseInt(prompt("enter the value"));
+			}
+			
+		}
+		console.log(main);
+		
+		var a=[[1,2,3],[4,5,6,7,8],[3,7,4,9,0,4,8,],[3,5,2,5,8,1,8,]];
+		var b=parseInt(prompt("enter sub array"));
+		var c=a[b]
+		var d=parseInt(prompt("enter sub array"));
+		var f=c[d]
+		console.log(f);
+		
+		print(10);
+		print(20);
+		var a=30;
+		var b=40;
+		console.log(a);
+		console.log(b);
+		function print(no){
+			console.log(no)
+		}
+		print(a);
+		print(b);
+		
+		function add(a,b){
+			let c=a+b;
+			return(c);
+		}
+		var x=add(10,20)
+		console.log(x);
+		
+		var a={name:"arun",dob:"23/12/2001",degree:"bca"}
+		console.log(a.name);
+		
+		var b=[{name:"arun",dob:"23/12/2001",degree:"bca"},{name:"thavin",dob:"20/10/2000",degree:"BE"}]
+		console.log(b[0].name);
+		
+		var mainlength=parseInt(prompt("enter the main length"));
+		var main=[];
+		var sub;
+		for(i=0;i<mainlength;i++){
+			var name=prompt("enter the name");
+			var age=prompt("enter the age");
+			var city=prompt("enter the city");
+			sub={name:name,age:age,city:city};
+			main[i]=sub;	
+		}
+		console.log(main);
+		
+		var mainlength=parseInt(prompt("enter the main length"));
+		var main=[];
+		var sub;
+		var a;
+		for(i=0;i<mainlength;i++){
+			sub={};
+			var sublength=parseInt(prompt("enter the sub length"));
+			for(j=0;j<sublength;j++){
+				main[i].a=parseInt(prompt("enter the value"));
+			}
+			main[i]=sub;	
+		}
+		console.log(main);
+		*/
+		var b=[{name:"arun",dob:"23/12/2001",degree:"bca"},{name:"thavin",dob:"20/10/2000",degree:"BE"}]
+		b[0].mark=prompt("enter the mark");
+		console.log(b);
+	</script>
+</body>
+</html>
